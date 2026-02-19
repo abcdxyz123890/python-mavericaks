@@ -17,5 +17,6 @@ def add_two(number: int) -> int:
 def zero_array(N: int) -> np.ndarray:
     """
     Returns a double type ndarray of length N filled with zeros 
+    
     """
     return np.zeros(N, dtype=float)
